@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.error {
+    text-align: center;
+}
+.dogDiv2 {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .dogDiv {
+        display: none;
+    }
+    .dogDiv2 {
+        display: block;
+        padding: 5px;
+    }
+  }
